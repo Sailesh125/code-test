@@ -13,7 +13,7 @@ output "public_subnetGreen" {
   value       = "${aws_subnet.public_subnetGreen.id}"
 }
 
-output "private_subnetR" {
+output "private_subnetRed" {
   description = "The private subnet Red id"
   value       = "${aws_subnet.private_subnetRed.id}"
 }
